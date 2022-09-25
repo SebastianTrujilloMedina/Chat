@@ -70,6 +70,13 @@
     
 }
 
+.form-register .warning{
+    font-size: 15px;
+    margin-bottom: 44px;
+    color: red;
+    
+}
+
 /*-------------------------------------Botones sing-in y sing-up------------------------------------------------*/
 
 .sing-in{

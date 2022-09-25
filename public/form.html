@@ -9,14 +9,18 @@
 </head>
 <body>
     
+    <form action="" method="post" id="form">
     <section class="form-register">
         <h1>Registro</h1>
         <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingresa su Nombre">
-        <input class="controls" type="text" name="email" id="email" placeholder="Ingresa su Email">
-        <input class="controls" type="text" name="correo" id="correo" placeholder="Ingresa su contaseña">
+        <input class="controls" type="email" name="email" id="email" placeholder="Ingresa su Email">
+        <input class="controls" type="password" name="password" id="password" placeholder="Ingresa su contaseña">
         <p>Estoy de acuerdo con los <a href="#">Terminos y condiciones</a> </p>
-        <input class="botons" type="submit" value="Registrar">
+        <button class="botons" type="submit">Registrarse</button>
         <p><a href="./form_iniciar.html">¿Ya tengo Cuenta?</a></p>
-    </section>    
+        <p class="warning" id="warnings"></p>
+    </section>  
+</form> 
+<script src="../public/js/main.js"></script>
 </body>
 </html>
