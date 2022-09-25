@@ -16,7 +16,7 @@
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'CURSIVE';
-    color: white;
+    color: black;
     box-shadow: 7px 13px 37px #ff9900;
 }
 
@@ -37,7 +37,7 @@
     border: 1px solid #ff9900;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: #ff9900;
 }
 
 .form-register p{
@@ -55,7 +55,7 @@
 }
 
 .form-register a:hover{
-    color: black;
+    color: #ff9900;
     text-decoration: underline;
 }
 
