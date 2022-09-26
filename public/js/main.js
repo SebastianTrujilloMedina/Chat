@@ -1,3 +1,5 @@
+//////////////////////////Validacion de formulario de registro////////////////////////////////////
+
 const nombre = document.getElementById("nombre")
 const email = document.getElementById("email")
 const pass = document.getElementById("password")
